@@ -1,26 +1,26 @@
 class Valyu < Formula
   desc "The search CLI for knowledge workers"
   homepage "https://github.com/valyuAI/valyu-cli"
-  version "1.0.8"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/valyuAI/valyu-cli/releases/download/v1.0.8/valyu-darwin-arm64.tar.gz"
-      sha256 "3f10fe3b3a6c17e628c7a891e17c115752cf76d96bad93595b26312f85a38b38"
+      url "https://github.com/valyuAI/valyu-cli/releases/download/v1.1.0/valyu-darwin-arm64.tar.gz"
+      sha256 "d3c1abb049e2498be868bda41bfa71fbde39a596e7dd9b9264a4f17c184ee3af"
     else
-      url "https://github.com/valyuAI/valyu-cli/releases/download/v1.0.8/valyu-darwin-x64.tar.gz"
-      sha256 "263f59c2a9278837357f281d7c17c87889d9276788104374a9a4362630614aa2"
+      url "https://github.com/valyuAI/valyu-cli/releases/download/v1.1.0/valyu-darwin-x64.tar.gz"
+      sha256 "395745ed021062b4c33a45fa6360fdb45c350457a9793856de4c5d68458970d0"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/valyuAI/valyu-cli/releases/download/v1.0.8/valyu-linux-arm64.tar.gz"
-      sha256 "7fb134e7433aa737b6f940d67978e4bc85ee3f6e19364a564064d8be7e32283e"
+      url "https://github.com/valyuAI/valyu-cli/releases/download/v1.1.0/valyu-linux-arm64.tar.gz"
+      sha256 "b5fc4470a8be36016438b7140d04c432aedb097acdbb6bdfb9108801066d1926"
     else
-      url "https://github.com/valyuAI/valyu-cli/releases/download/v1.0.8/valyu-linux-x64.tar.gz"
-      sha256 "f1455e15b2253e8024316116b75a537ddd2c7af7f6acc3b8014168a8d520fc42"
+      url "https://github.com/valyuAI/valyu-cli/releases/download/v1.1.0/valyu-linux-x64.tar.gz"
+      sha256 "5a5dc27a5471a110ba48953d86f32655707abd38c9440342b7d5d5001b401769"
     end
   end
 
